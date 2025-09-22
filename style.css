@@ -1,0 +1,235 @@
+/*                         For body                                     */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/*                            For header section                          */
+
+.header {
+  background-color: rgb(22, 20, 20);
+}
+
+.header-icons {
+  cursor: pointer;
+}
+
+/*                           For navbar section                           */
+
+.navbar-icons {
+  gap: 15px;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+/*                          For Slider Section                            */
+
+#carouselExampleCaptions {
+  height: 600px;
+}
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item,
+#carouselExampleCaptions .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: left;
+    color: white;
+    width: 40%;
+}
+
+.carousel-caption h5 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+
+.carousel-caption a {
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption .btn h5{
+    font-size: 40px;
+  }
+}
+
+/*                            For about section                       */
+
+.about_box{
+  box-shadow: 0px 0px 10px 20px rgb(208, 208, 208);
+  border-radius: 20px;
+}
+
+.about_text{
+  font-size: 19px;
+}
+
+.about_text i{
+  color: #AD8213;
+  font-size: 40px;
+}
+
+/*                            for option section                    */
+
+.option_heading{
+  text-transform: uppercase;
+}
+
+.option_heading span{
+  color: #AD8213;
+}
+
+.option img{
+  height: 370px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.option_text{
+  font-size: 20px;
+}
+
+/*                            for carpet images                      */
+
+.Residence{
+  background-color:  #AD8213;
+  color: white;
+}
+
+.carpet .img-fluid{
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.carpet_text{
+  font-size: 20px;
+}
+
+/*                        for first card section                     */
+
+.first_card h2{
+  color: #AD8213 ;
+  text-transform: uppercase;
+}
+
+.first_card img{
+  /* height: 300px; */
+  width: 240px;
+}
+
+.card-text a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*                       for form section                          */
+
+.form_heading{
+  text-transform: uppercase;
+}
+
+.form_heading span{
+  color: #AD8213;
+}
+
+/*                        For delivery section                      */
+
+.del_heading{
+  text-transform: uppercase;
+}
+
+.del_heading span{
+  color: #AD8213;
+}
+
+.del_logo img{
+  height: 60px;
+  width: 140px;
+}
+
+/*                        For second card section                  */
+
+.second_card_heading {
+  text-transform: uppercase;
+}
+
+.second_card_heading span{
+  color: #AD8213 ;
+}
+
+.second_card img{
+  width: 240px;
+}
+
+/*                       for third card section                   */
+
+.third_card_heading {
+  text-transform: uppercase;
+}
+
+.third_card_heading span{
+  color: #AD8213 ;
+}
+
+.third_card img{
+  /* height: 300px; */
+  width: 240px;
+}
+
+/*                         for footer                            */
+
+.footer {
+  background-color: rgb(22, 20, 20);
+}
+
+.footer a{
+  text-decoration: none;
+  color: rgb(144, 142, 142);
+}
+
+.contact_text{
+  color: rgb(144, 142, 142);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.footer-icons {
+  cursor: pointer;
+  font-size: 17px;
+}
